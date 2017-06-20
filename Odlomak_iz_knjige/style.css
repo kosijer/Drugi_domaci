@@ -1,0 +1,73 @@
+h1, p{
+
+	font-family: 'Merriweather', serif;
+}
+
+div{
+	padding: 20px;
+	border-style: dashed;
+	text-align: justify;
+}
+
+.fixed-bg {
+     /* The background image */
+    background-image: url("pozadina.jpg");
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 500px;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:visited {
+    color: rgb(0, 153, 51);
+}
+
+a:hover{
+	color:red;
+	cursor:pointer;
+}
+
+p.author{
+	padding-left: 1050px;
+	font-size: 25px;
+}
+
+p:nth-child(even){
+	color:rgb(153, 38, 0);
+}
+
+span{
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt img:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+
+
+
+
+
