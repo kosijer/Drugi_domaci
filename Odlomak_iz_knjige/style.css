@@ -1,31 +1,46 @@
-h1, p{
+h1, p {
+  font-family: 'Merriweather', serif;
+  line-height: 2;
+}
 
-	font-family: 'Merriweather', serif;
+h1, h2 {
+  text-align: center;
+  font-weight: normal;
 }
 
 div{
-	padding: 20px;
-	border-style: dashed;
-	text-align: justify;
+  padding: 20px;
+  border-style: solid;
+  text-align: justify;
+  width: 100%;
+  max-width: 960px;
+  margin: 20px auto;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.4);
+  border-width: 1px;
+  border-color: #dcb4b4;
+  border-bottom-width: 3px;
 }
 
 .fixed-bg {
-     /* The background image */
-    background-image: url("pozadina.jpg");
-    /* Set a specified height, or the minimum height for the background image */
-    min-height: 500px;
-    /* Set background image to fixed (don't scroll along with the page) */
-    background-attachment: fixed;
-    /* Center the background image */
-    background-position: center;
-    /* Set the background image to no repeat */
-    background-repeat: no-repeat;
-    /* Scale the background image to be as large as possible */
-    background-size: cover;
+   /* The background image */
+   background-image: url("pozadina.jpg");
+  /* Set a specified height, or the minimum height for the background image */
+   min-height: 500px;
+  /* Set background image to fixed (don't scroll along with the page) */
+   background-attachment: fixed;
+  /* Center the background image */
+   background-position: center;
+  /* Set the background image to no repeat */
+   background-repeat: no-repeat;
+  /* Scale the background image to be as large as possible */
+   background-size: cover;
+   background-color: #ffd7d7;
 }
 
 a:link{
-	text-decoration: none;
+  text-decoration: none;
+  color: rgb(0, 80, 27);
 }
 
 a:visited {
@@ -33,24 +48,27 @@ a:visited {
 }
 
 a:hover{
-	color:red;
-	cursor:pointer;
+  color: rgb(0, 39, 13);
+  cursor:pointer;
+  text-decoration: underline;
 }
 
 p.author{
-	padding-left: 1050px;
-	font-size: 25px;
+  padding-left: 0;
+  font-size: 25px;
+  text-align: right;
 }
 
 p:nth-child(even){
-	color:rgb(153, 38, 0);
+  color:rgb(153, 38, 0);
 }
 
 span{
-	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  /* text-shadow: 2px 4px 3px rgba(0,0,0,0.3); */
+  font-weight: bold;
 }
 
-.tilt {
+.tilt img {
   -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
        -o-transition: all 0.5s ease;
@@ -65,9 +83,3 @@ span{
       -ms-transform: rotate(-10deg);
           transform: rotate(-10deg);
 }
-
-
-
-
-
-
